@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="静态链表.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="动态链表的创建与输出.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="链表的删除功能实现.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="上课练习.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="S0201.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="S0202 .cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="S0203.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="S0204.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="S0205.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="S0206.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="S0207.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="S0208.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="S0209.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="S0210.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="S0211.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="S0212.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="S0213.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="S0214.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="S0215 .cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="202030226周羽飞实验一1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="202030226周羽飞实验一2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="202030226周羽飞实验一3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="000000.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="202030226周羽飞实验二1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="202030226周羽飞实验二2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="202030226周羽飞实验二3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="实验二1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="实验二2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="S0215课本.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="S0216.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="T0201.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="停车场.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="停车场顺序栈思考.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="停车场链栈.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="a.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="S0301.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="S0302.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="S0303.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="S0306.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="S0307.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
