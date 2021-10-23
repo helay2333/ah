@@ -166,6 +166,8 @@
     <ClCompile Include="S0306.cpp" />
     <ClCompile Include="S0307.cpp" />
     <ClCompile Include="T0201.cpp" />
+    <ClCompile Include="T0201B.cpp" />
+    <ClCompile Include="T0207.cpp" />
     <ClCompile Include="上课练习.cpp" />
     <ClCompile Include="停车场.cpp" />
     <ClCompile Include="停车场链栈.cpp" />

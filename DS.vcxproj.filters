@@ -135,5 +135,11 @@
     <ClCompile Include="S0307.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="T0201B.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="T0207.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
