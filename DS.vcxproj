@@ -140,9 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="000000.cpp" />
-    <ClCompile Include="202030226周羽飞实验二1.cpp" />
-    <ClCompile Include="202030226周羽飞实验二2.cpp" />
-    <ClCompile Include="202030226周羽飞实验二3.cpp" />
+    <ClCompile Include="2020.cpp" />
+    <ClCompile Include="2020实验二1.cpp" />
+    <ClCompile Include="2020实验二2.cpp" />
+    <ClCompile Include="2020实验二3.cpp" />
     <ClCompile Include="a.cpp" />
     <ClCompile Include="S0201.cpp" />
     <ClCompile Include="S0202 .cpp" />
@@ -165,7 +166,11 @@
     <ClCompile Include="S0303.cpp" />
     <ClCompile Include="S0306.cpp" />
     <ClCompile Include="S0307.cpp" />
+    <ClCompile Include="S0501.cpp" />
+    <ClCompile Include="S0502.cpp" />
+    <ClCompile Include="T0201 .cpp" />
     <ClCompile Include="T0201.cpp" />
+    <ClCompile Include="T0201A.cpp" />
     <ClCompile Include="T0201B.cpp" />
     <ClCompile Include="T0207.cpp" />
     <ClCompile Include="上课练习.cpp" />
@@ -174,11 +179,13 @@
     <ClCompile Include="停车场顺序栈思考.cpp" />
     <ClCompile Include="动态链表的创建与输出.c" />
     <ClCompile Include="S0209.cpp" />
-    <ClCompile Include="202030226周羽飞实验一1.cpp" />
-    <ClCompile Include="202030226周羽飞实验一2.cpp" />
-    <ClCompile Include="202030226周羽飞实验一3.cpp" />
+    <ClCompile Include="20203s.cpp" />
+    <ClCompile Include="2020实验一2.cpp" />
+    <ClCompile Include="2020实验三.cpp" />
+    <ClCompile Include="学习T0201B.cpp" />
     <ClCompile Include="实验二1.cpp" />
     <ClCompile Include="实验二2.cpp" />
+    <ClCompile Include="计算机200202.cpp" />
     <ClCompile Include="链表的删除功能实现.c" />
     <ClCompile Include="静态链表.c" />
   </ItemGroup>

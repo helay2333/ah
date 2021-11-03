@@ -72,25 +72,25 @@
     <ClCompile Include="S0215 .cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="202030226周羽飞实验一1.cpp">
+    <ClCompile Include="20203s.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="202030226周羽飞实验一2.cpp">
+    <ClCompile Include="2020实验一2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="202030226周羽飞实验一3.cpp">
+    <ClCompile Include="2020实验三.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="000000.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="202030226周羽飞实验二1.cpp">
+    <ClCompile Include="2020实验二1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="202030226周羽飞实验二2.cpp">
+    <ClCompile Include="2020实验二2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="202030226周羽飞实验二3.cpp">
+    <ClCompile Include="2020实验二3.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="实验二1.cpp">
@@ -139,6 +139,27 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="T0207.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="T0201 .cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="T0201A.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="学习T0201B.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2020.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="S0501.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="计算机200202.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="S0502.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
