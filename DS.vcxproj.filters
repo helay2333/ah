@@ -177,5 +177,8 @@
     <ClCompile Include="S0508.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="S0507.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
