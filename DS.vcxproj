@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="000000.cpp" />
     <ClCompile Include="2020.cpp" />
+    <ClCompile Include="20203实验四.cpp" />
     <ClCompile Include="2020实验二1.cpp" />
     <ClCompile Include="2020实验二2.cpp" />
     <ClCompile Include="2020实验二3.cpp" />
@@ -168,6 +169,9 @@
     <ClCompile Include="S0307.cpp" />
     <ClCompile Include="S0501.cpp" />
     <ClCompile Include="S0502.cpp" />
+    <ClCompile Include="S0503.cpp" />
+    <ClCompile Include="S0505.cpp" />
+    <ClCompile Include="S0508.cpp" />
     <ClCompile Include="T0201 .cpp" />
     <ClCompile Include="T0201.cpp" />
     <ClCompile Include="T0201A.cpp" />
@@ -185,6 +189,7 @@
     <ClCompile Include="学习T0201B.cpp" />
     <ClCompile Include="实验二1.cpp" />
     <ClCompile Include="实验二2.cpp" />
+    <ClCompile Include="实验四.cpp" />
     <ClCompile Include="计算机200202.cpp" />
     <ClCompile Include="链表的删除功能实现.c" />
     <ClCompile Include="静态链表.c" />

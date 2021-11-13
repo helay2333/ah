@@ -162,5 +162,20 @@
     <ClCompile Include="S0502.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="S0503.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="20203实验四.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="实验四.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="S0505.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="S0508.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
