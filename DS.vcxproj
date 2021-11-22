@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="000000.cpp" />
+    <ClCompile Include="11_15实验5.cpp" />
     <ClCompile Include="2020.cpp" />
     <ClCompile Include="20203实验四.cpp" />
     <ClCompile Include="2020实验二1.cpp" />
@@ -173,11 +174,13 @@
     <ClCompile Include="S0505.cpp" />
     <ClCompile Include="S0507.cpp" />
     <ClCompile Include="S0508.cpp" />
+    <ClCompile Include="S0601.cpp" />
     <ClCompile Include="T0201 .cpp" />
     <ClCompile Include="T0201.cpp" />
     <ClCompile Include="T0201A.cpp" />
     <ClCompile Include="T0201B.cpp" />
     <ClCompile Include="T0207.cpp" />
+    <ClCompile Include="T0501.cpp" />
     <ClCompile Include="上课练习.cpp" />
     <ClCompile Include="停车场.cpp" />
     <ClCompile Include="停车场链栈.cpp" />

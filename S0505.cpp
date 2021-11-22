@@ -1,4 +1,4 @@
-//40fen
+//
 //#include<iostream>
 //using namespace std;
 //typedef struct
@@ -31,12 +31,12 @@
 //    {
 //        if (i == s1)
 //        {
-//            if (s2==s1)
+//          /*  if (s2 == s1)
 //            {
 //                const int t = s2 + 1;
 //                min2 = T[s2];
 //                s2 = t;
-//            }
+//            }*/
 //            continue;
 //        }
 //        //if (min2.parent != 0 && T[i].parent == 0)
@@ -56,7 +56,7 @@
 //void CreateHuffmanTree(HuffmanTree &T,int n)
 //{
 //    int m = 0;
-//    if (n <= 1) return;
+// /*   if (n <= 1) return;*/
 //    m = 2 * n - 1;
 //    int s1 = 0;
 //    int s2 = 0;

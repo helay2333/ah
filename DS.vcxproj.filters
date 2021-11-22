@@ -180,5 +180,14 @@
     <ClCompile Include="S0507.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="T0501.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="11_15实验5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="S0601.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
