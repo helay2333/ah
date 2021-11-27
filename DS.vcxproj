@@ -140,6 +140,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="000000.cpp" />
+    <ClCompile Include="01复习线性表.cpp" />
+    <ClCompile Include="02复习栈与队列.cpp" />
+    <ClCompile Include="03复习串数组和广义表.cpp" />
+    <ClCompile Include="04复习树与二叉树.cpp" />
+    <ClCompile Include="05复习图.cpp" />
+    <ClCompile Include="06复习查找.cpp" />
     <ClCompile Include="11_15实验5.cpp" />
     <ClCompile Include="2020.cpp" />
     <ClCompile Include="20203实验四.cpp" />
