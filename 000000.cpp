@@ -249,3 +249,70 @@
 //		cout << HT[i].weight << "的编码为：" << HC[i] << endl;
 //	return 0;
 //}
+//#define _CRT_SECURE_NO_WARNINGS 1
+//#include<iostream>
+//using namespace std;
+//
+//#define maxint 32767
+//#define  MVNum 100
+//
+//bool visited[MVNum];
+//
+//typedef struct {
+//	char vexs[MVNum];//顶点表 
+//	int arcs[MVNum][MVNum];//邻接矩阵
+//	int vexnum, arcnum;//图的当前点数和边数 
+//}AMGraph;
+//
+//int Locate(AMGraph& G, char v)
+//{
+//	int i = 0;
+//	while (G.vexs[i] != v && i <= G.vexnum)
+//		i++;
+//	return i;
+//}
+//
+//int CreateUDN(AMGraph& G)
+//{
+//	cin >> G.vexnum >> G.arcnum;
+//	for (int i = 0; i < G.vexnum; i++)
+//	{
+//		cin >> G.vexs[i];
+//	}
+//	for (int i = 0; i < G.vexnum; i++)
+//		for (int j = 0; j < G.vexnum; j++)
+//			G.arcs[i][j] = maxint;
+//	for (int k = 0; k < G.arcnum; k++)
+//	{
+//		char v1, v2;
+//		int w;
+//		cin >> v1 >> v2 >> w;
+//		int i = Locate(G, v1);
+//		int j = Locate(G, v2);
+//		G.arcs[i][j] = w;
+//		G.arcs[j][i] = G.arcs[j][i];
+//	}
+//	return 1;
+//}
+//
+//void DFS_AM(AMGraph& G, int v)
+//{
+//	cout << G.vexs[v];
+//	visited[v] = true;
+//	for (int w = 0; w < G.vexnum; w++)
+//		if ((G.arcs[v][w] != 0) && (!visited[w]))
+//			DFS_AM(G, w);
+//}
+//
+//
+//int main()
+//{
+//	AMGraph G;
+//	CreateUDN(G);  //创建无向图的邻接矩阵 
+//	DFS_AM(G, 0); //深度优先搜索遍历图 
+//	cout << endl;
+//	for (int i = 0; i < G.vexnum; i++) visited[i] = 0;
+//	if (G.vexnum > 1) DFS_AM(G, 1);
+//	cout << endl;
+//	return 0;
+//}
