@@ -207,6 +207,7 @@
     <ClCompile Include="小测验2.cpp" />
     <ClCompile Include="小测验3.cpp" />
     <ClCompile Include="校园导航系统.cpp" />
+    <ClCompile Include="表达式.cpp" />
     <ClCompile Include="计算机200202.cpp" />
     <ClCompile Include="链表的删除功能实现.c" />
     <ClCompile Include="静态链表.c" />

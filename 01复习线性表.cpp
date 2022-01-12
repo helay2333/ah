@@ -56,68 +56,70 @@ using namespace std;
 
 
 //线性表
-typedef  struct Snode
-{
-	char data[100];
-    struct Snode* next;
-}Snode,* LinkList;
-void InitList(LinkList & L)
-{
-    L = new Snode;
-    L->next = NULL;
-}
-void showList(LinkList& L)
-{
-    if (!L->next)
-    {
-        cout << "empty!" << endl;
-        return;
-    }
-    else
-    {
-        LinkList p;
-        int i = 1;
-        for (p = L->next; p != NULL; p=p->next)
-        {
-            cout << i << ":" << p->data << endl;
-            i++;
-        }
-    }
-}
-//前插
-//void CreateList_H(LinkList& L,int n)
+//typedef  struct Snode
 //{
-//    int i  = 0;
-//    LinkList p;
+//	char data[100];
+//    struct Snode* next;
+//}Snode,* LinkList;
+//void InitList(LinkList & L)
+//{
+//    L = new Snode;
+//    L->next = NULL;
+//}
+//void showList(LinkList& L)
+//{
+//    if (!L->next)
+//    {
+//        cout << "empty!" << endl;
+//        return;
+//    }
+//    else
+//    {
+//        LinkList p;
+//        int i = 1;
+//        for (p = L->next; p != NULL; p=p->next)
+//        {
+//            cout << i << ":" << p->data << endl;
+//            i++;
+//        }
+//    }
+//}
+////前插
+////void CreateList_H(LinkList& L,int n)
+////{
+////    int i  = 0;
+////    LinkList p;
+////    for (i = 0; i < n; i++)
+////    {
+////        p = new Snode;
+////        cin >> p->data;
+////        p->next = L->next;
+////        L->next = p;
+////    }
+////}
+////后插
+//void CreateList_H(LinkList& L, int n)
+//{
+//    int i = 0;
+//    LinkList p,q;
+//    q = L;
 //    for (i = 0; i < n; i++)
 //    {
 //        p = new Snode;
 //        cin >> p->data;
-//        p->next = L->next;
-//        L->next = p;
+//        p->next = NULL;
+//        q->next = p;
+//        q = p;
 //    }
 //}
-//后插
-void CreateList_H(LinkList& L, int n)
-{
-    int i = 0;
-    LinkList p,q;
-    q = L;
-    for (i = 0; i < n; i++)
-    {
-        p = new Snode;
-        cin >> p->data;
-        p->next = NULL;
-        q->next = p;
-        q = p;
-    }
-}
-int main()
-{
-    LinkList Lname;
-    InitList(Lname); //初始化单链表 
-    showList(Lname); //单链表遍历 
-    CreateList_H(Lname, 5); //前插法创建单链表 
-    showList(Lname); //单链表遍历 
-    return 0;
-}
+//int main()
+//{
+//    LinkList Lname;
+//    InitList(Lname); //初始化单链表 
+//    showList(Lname); //单链表遍历 
+//    CreateList_H(Lname, 5); //前插法创建单链表 
+//    showList(Lname); //单链表遍历 
+//    return 0;
+//}
+
+
