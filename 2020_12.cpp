@@ -36,30 +36,50 @@ int main()
 		int* arr = new int[n + 2];
 		arr[0] = 0;
 		arr[n + 1] = 0;
+		visited[0] = 0;
 		for (int j = 1; j < n + 1; j++) {
 			cin >> arr[j];
+			visited[j] = 0;
 		}
-		for (int j = 0; j < n + 2; j++) {
-			if (visited[arr[j]] == 0 && G.a[arr[j]][arr[j + 1]]) {
-				b[i] += G.a[arr[j]][arr[j + 1]];
-				visited[arr[j]] = 1;
-			}
-			else {
-				if (j == n + 1) {
-					break;
+		if (n < G.N) {
+			continue;
+		}
+		else {
+			for (int j = 0; j < n + 2; j++) {
+				if (visited[arr[j]] == 0 && G.a[arr[j]][arr[j + 1]]) {
+					b[i] += G.a[arr[j]][arr[j + 1]];
+					visited[arr[j]] = 1;
 				}
 				else {
-					b[i] = 0;
+					if (j == n + 1) {
+						break;
+					}
+					else {
+						b[i] = 0;
+						break;
+					}
 				}
-			}
 
+			}
 		}
 
 	}
+	int count = 0;
+	int min = 0;
+	int t = 0;
 	for (int i = 0; i < K; i++) {
-		cout << b[i] << " ";
+		if (b[i]) {
+		    min = b[i];
+			t = i;
+			count++;
+		}
+		if (b[i] < min) {
+			min = b[i];
+			t = i;
+		}
 	}
-
+	cout << count << endl;
+	cout << t - 1 <<" "<< min << endl;
 
 	return 0;
 }
