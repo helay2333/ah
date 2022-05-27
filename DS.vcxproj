@@ -156,6 +156,8 @@
     <ClCompile Include="2020实验二1.cpp" />
     <ClCompile Include="2020实验二2.cpp" />
     <ClCompile Include="2020实验二3.cpp" />
+    <ClCompile Include="2_28.cpp" />
+    <ClCompile Include="3_1.cpp" />
     <ClCompile Include="a.cpp" />
     <ClCompile Include="S0201.cpp" />
     <ClCompile Include="S0202 .cpp" />
@@ -191,6 +193,10 @@
     <ClCompile Include="T0201B.cpp" />
     <ClCompile Include="T0207.cpp" />
     <ClCompile Include="T0501.cpp" />
+    <ClCompile Include="test0501].cpp" />
+    <ClCompile Include="test0501_2.cpp" />
+    <ClCompile Include="test0515.cpp" />
+    <ClCompile Include="test0527.cpp" />
     <ClCompile Include="上课练习.cpp" />
     <ClCompile Include="停车场.cpp" />
     <ClCompile Include="停车场链栈.cpp" />
@@ -208,6 +214,7 @@
     <ClCompile Include="小测验2.cpp" />
     <ClCompile Include="小测验3.cpp" />
     <ClCompile Include="校园导航系统.cpp" />
+    <ClCompile Include="网红打卡.cpp" />
     <ClCompile Include="表达式.cpp" />
     <ClCompile Include="计算机200202.cpp" />
     <ClCompile Include="链表的删除功能实现.c" />

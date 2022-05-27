@@ -1,20 +1,37 @@
-//#include<iostream>
-//using namespace std;
-//int visited[205] = { 0 };
-//int b[205] = { 0 };
-//int a[205][205] = { 0 };
-//int arr[205] = { 0 };
+#include<iostream>
+using namespace std;
+#define MAX 205
+typedef struct
+{
+	int a[MAX][MAX];
+	int N;//µã
+	int M;//±ß
+}Map;
+void CreateMap(Map& G)
+{
+	cin >> G.N >> G.M;
+	for (int i = 0; i < G.N + 1; i++) {
+		for (int j = 0; j < G.N + 1; j++) {
+			G.a[i][j] = 0;
+		}
+	}
+	for (int i = 0; i < G.M; i++) {
+		int x = 0, y = 0, z = 0;
+		cin >> x >> y >> z;
+		G.a[x][y] = z;
+		G.a[y][x] = z;
+	}
+}
+int visited[205] = { 0 };
+int b[205] = { 0 };
+int arr[205] = { 0 };
 //int main()
 //{
-//	int N, M;
-//	cin >> N >> M;
-//	for (int i = 0; i < M; i++) {
-//		int x = 0, y = 0, z = 0;
-//		cin >> x >> y >> z;
-//		a[x][y] = a[y][x] = z;		
-//	}
+//	Map* G = new Map;
+//	CreateMap(*G);
 //	int K = 0;
 //	cin >> K;
+//
 //	int n = 0;
 //	for (int i = 0; i < K; i++) {
 //		cin >> n;
@@ -25,13 +42,13 @@
 //			cin >> arr[j];
 //			visited[j] = 0;
 //		}
-//		if (n < N ) {
+//		if (n < (*G).N) {
 //			continue;
 //		}
 //		else {
 //			for (int j = 0; j < n + 2; j++) {
-//				if (visited[arr[j]] == 0 && a[arr[j]][arr[j + 1]]) {
-//					b[i] += a[arr[j]][arr[j + 1]];
+//				if (visited[arr[j]] == 0 && (*G).a[arr[j]][arr[j + 1]]) {
+//					b[i] += (*G).a[arr[j]][arr[j + 1]];
 //					visited[arr[j]] = 1;
 //				}
 //				else {
@@ -43,8 +60,10 @@
 //						break;
 //					}
 //				}
+//
 //			}
 //		}
+//
 //	}
 //	int count = 0;
 //	int min = 205;
@@ -63,6 +82,8 @@
 //		}
 //	}
 //	cout << count << endl;
-//	cout << t + 1  <<" "<< min << endl;
+//	cout << t + 1 << " " << min << endl;
+//	delete G;
+//	G = NULL;
 //	return 0;
 //}

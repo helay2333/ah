@@ -234,5 +234,26 @@
     <ClCompile Include="2020_12.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="网红打卡.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2_28.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3_1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test0501].cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test0501_2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test0515.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test0527.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
